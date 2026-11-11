@@ -1,0 +1,162 @@
+{
+  "name": "ULTIMATE",
+  "role": "Roblox scripter · Luau",
+  "boot": [
+    "Wake up, client...",
+    "Your game needs a scripter.",
+    "Follow the code."
+  ],
+  "chapters": [
+    { "id": "boot", "label": "Wake up", "at": 0 },
+    { "id": "about", "label": "Who I am", "at": 7.5 },
+    { "id": "work", "label": "Past work", "at": 18.7 },
+    { "id": "arena", "label": "ELEMENTUM", "at": 39 },
+    { "id": "combat", "label": "Combat", "at": 46 },
+    { "id": "ui", "label": "Menus", "at": 60 },
+    { "id": "lobby", "label": "Lobby", "at": 69 },
+    { "id": "breach", "label": "Anti-exploit", "at": 75 },
+    { "id": "pricing", "label": "Pricing", "at": 91 },
+    { "id": "contact", "label": "Contact", "at": 98 }
+  ],
+  "works": [
+    { "title": "ELEMENTUM", "path": "13 systems · game collection", "media": "matrix/holo/elementum.jpg" },
+    { "title": "Gun combat system", "path": "ServerScriptService/Combat/GunService", "media": "matrix/holo/gun.mp4" },
+    { "title": "Round-based elemental combat", "path": "ServerScriptService/Match", "media": "matrix/holo/combat.mp4" },
+    { "title": "Game UI & inventory", "path": "StarterPlayerScripts/UI", "media": "matrix/holo/ui.mp4" }
+  ],
+  "cards": [
+    {
+      "id": "hero", "at": [1.2, 6.6], "side": "hero",
+      "kicker": "Open for commissions",
+      "title": "ULTIMATE",
+      "body": "Roblox scripter. I build the systems that make your game play.",
+      "chips": ["Luau", "3 years", "Age 19"]
+    },
+    {
+      "id": "about", "at": [7.2, 12.4], "side": "left",
+      "kicker": "// who i am",
+      "title": "I script whole games, not just pieces.",
+      "body": "A year learning to code in Luau, then two years building my own games from scratch. If your game needs it, I can code it.",
+      "chips": ["Combat", "Anti-exploit", "Data saving", "Rounds & matches", "Shops", "UI", "NPC AI", "Bug fixing"]
+    },
+    {
+      "id": "work-0", "at": [16.6, 20.9], "side": "right",
+      "kicker": "// past work 01",
+      "title": "ELEMENTUM",
+      "body": "My biggest project. A full pro-bending game with 13 systems. You'll step inside it in a moment.",
+      "links": [{ "label": "See the code", "code": ["corridor", 0] }]
+    },
+    {
+      "id": "work-1", "at": [21.1, 25.3], "side": "right",
+      "kicker": "// past work 02",
+      "title": "Gun combat system",
+      "body": "First-person guns from scratch: recoil, sway, aiming and real reloads. Every shot is re-checked on the server, so nobody can fake a hit."
+    },
+    {
+      "id": "work-2", "at": [25.5, 29.7], "side": "right",
+      "kicker": "// past work 03",
+      "title": "Round-based elemental combat",
+      "body": "Rounds, countdowns, live score, teams and spectating. Light and heavy attacks, parry, dash and walls."
+    },
+    {
+      "id": "work-3", "at": [29.9, 33.3], "side": "right",
+      "kicker": "// past work 04",
+      "title": "Game UI & inventory",
+      "body": "A full menu layer: lobby HUD, inventory, shop, codes, mode picker and a rewards track. One style, smooth transitions."
+    },
+    {
+      "id": "portal", "at": [33.6, 35.4], "side": "bottom",
+      "kicker": "// enough talk",
+      "title": "Let me show you."
+    },
+    {
+      "id": "arena", "at": [38.6, 44.6], "side": "left",
+      "kicker": "// now entering",
+      "title": "ELEMENTUM",
+      "body": "Avatar Pro-bending inspired game. 13 systems and 39,000+ lines of Luau. Keep scrolling and I'll walk you through them.",
+      "links": [{ "label": "Read the code", "code": ["arena", 0] }]
+    },
+    {
+      "id": "combat", "at": [45.6, 51.6], "side": "left",
+      "kicker": "// system 01 · combat",
+      "title": "Combat that feels fair.",
+      "body": "Fire and earth moves, parries, dodges and knockback. The server decides every hit, so what players see is what really happened.",
+      "video": "",
+      "links": [{ "label": "Combat code", "code": ["arena", 2] }]
+    },
+    {
+      "id": "ai", "at": [52, 57.6], "side": "left",
+      "kicker": "// system 02 · AI",
+      "title": "Bots that fight back.",
+      "body": "Those two throwing at me are AI. They aim, dodge and pick moves like a player would, so matches never feel empty.",
+      "video": "",
+      "links": [{ "label": "AI code", "code": ["arena", 1] }]
+    },
+    {
+      "id": "ui", "at": [59, 65.6], "side": "left",
+      "kicker": "// system 03 · menus",
+      "title": "Menus players actually use.",
+      "body": "Shop, inventory, profile, emotes and rewards. Every panel opens fast and works on phone and PC.",
+      "video": "",
+      "links": [{ "label": "UI code", "code": ["arena", 3] }]
+    },
+    {
+      "id": "lobby", "at": [68.2, 72.8], "side": "left",
+      "kicker": "// system 04 · lobby",
+      "title": "Queue up. Rank up.",
+      "body": "1v1, 2v2 and 3v3 matchmaking, parties, ranked play and a tutorial. Progress saves safely, so nobody loses their stuff.",
+      "video": "",
+      "links": [{ "label": "Matchmaking code", "code": ["lobby", 0] }]
+    },
+    {
+      "id": "breach", "at": [73.4, 76.4], "side": "alert",
+      "kicker": "⚠ exploit detected",
+      "title": "Hackers join every popular game."
+    },
+    {
+      "id": "anti", "at": [76.8, 84.2], "side": "left",
+      "kicker": "// system 05 · anti-exploit",
+      "title": "So I build the defence in.",
+      "bullets": [
+        "The server decides hits, cooldowns and damage. The client only asks.",
+        "Every request is rate limited, so spam gets dropped.",
+        "Movement is watched for speed and teleport hacks.",
+        "Coins and rewards only change on the server."
+      ],
+      "links": [{ "label": "Anti-exploit code", "code": ["guard", 0] }]
+    },
+    {
+      "id": "process", "at": [86.2, 89.8], "side": "right",
+      "kicker": "// how it works",
+      "title": "Simple from start to finish.",
+      "bullets": [
+        "You tell me what your game needs.",
+        "I give you a price before I start.",
+        "I build it. You test it in your game.",
+        "Fixes on my work are free."
+      ]
+    },
+    {
+      "id": "pricing", "at": [90.2, 94.4], "side": "left",
+      "kicker": "// pricing",
+      "title": "First 5 commissions are free.",
+      "body": "After that, these are my prices.",
+      "rows": [
+        ["Small", "$15 – $40", "Door, leaderboard, simple GUI, one tool"],
+        ["Medium", "$60 – $150", "Shop, inventory, round system, data saving"],
+        ["Large", "$200 – $500", "Full combat, anti-exploit, complete game loop"]
+      ],
+      "note": "PayPal (USD) or Robux. For Robux you cover Roblox's 30% fee."
+    },
+    {
+      "id": "contact", "at": [95.6, 100.5], "side": "left",
+      "kicker": "// incoming call",
+      "title": "Pick up. Let's build your game.",
+      "body": "Message me with what you need, a rough deadline and your budget.",
+      "links": [
+        { "label": "Discord: 0_ultimate_0", "copy": "0_ultimate_0" },
+        { "label": "Roblox: 0_Ultimate1", "href": "https://www.roblox.com/users/657759745/profile" }
+      ]
+    }
+  ]
+}
